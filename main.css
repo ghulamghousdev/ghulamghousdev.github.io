@@ -247,8 +247,11 @@ img {
 }
 
 @media (max-width: 700px) {
+    body {
+        width: 100%;
+    }
     #header-main {
-        height: 70vh;
+        height: 110vh;
     }
     #header-main #navbar {
         flex-direction: column;
@@ -308,7 +311,7 @@ img {
         padding-top: 1rem;
         line-height: 1.1;
     }
-    #header-content .welcome span {
+    /*#header-content .welcome span {
         display: none;
-    }
+    }*/
 }
