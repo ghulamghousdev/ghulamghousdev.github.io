@@ -282,6 +282,36 @@ img {
     align-items: center;
 }
 
+#blog .blog-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1.5rem;
+}
+
+#blog .blog-content img {
+    position: relative;
+    width: 100%;
+}
+
+#blog .blog-content .paragraph {
+    background: #e2dfdf;
+    font-size: 1.1rem;
+    border-left: 3px solid #ffee00;
+    line-height: 1.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog .blog-content .paragraph p a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
 #hobbie {
     background: #e2dfdf;
     color: #333;
@@ -436,6 +466,21 @@ img {
         grid-area: "img";
     }
     #about .about-content .paragraph {
+        text-align: left;
+        font-size: 1.3rem;
+        grid-area: "p";
+        padding: 0.7rem;
+    }
+    #blog .blog-content {
+        grid-template-columns: none;
+    }
+    #blog .blog-content #blog-a .blog-info {
+        grid-template-areas: "img" "p";
+    }
+    #blog .blog-content img {
+        grid-area: "img";
+    }
+    #blog .blog-content .paragraph {
         text-align: left;
         font-size: 1.3rem;
         grid-area: "p";
