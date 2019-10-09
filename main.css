@@ -249,6 +249,7 @@ img {
 #header-content .welcome p {
     padding-top: 2.0rem;
     font-size: 3.0rem;
+    position: absolute;
 }
 
 #header-content .contact ul li {
