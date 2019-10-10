@@ -218,9 +218,12 @@ img {
     color: #333;
 }
 
+
 #header-main #navbar #main-nav ul li a:hover {
+    
     border-bottom: 3px #ffee00 solid;
     padding-bottom: 0.5rem;
+    
 }
 
 #header-main::before {
@@ -289,11 +292,14 @@ img {
 }
 
 #blog .blog-content img {
+    
     position: relative;
     width: 100%;
+    
 }
 
 #blog .blog-content .paragraph {
+    
     background: #e2dfdf;
     font-size: 1.1rem;
     border-left: 3px solid #ffee00;
@@ -301,6 +307,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #blog .blog-content .paragraph p a {
