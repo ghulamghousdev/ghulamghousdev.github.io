@@ -210,6 +210,7 @@ img {
 
 #header-main #navbar #main-nav ul {
     display: flex;
+    float:right;
     font-size: 1.5rem;
     list-style: none;
 }
