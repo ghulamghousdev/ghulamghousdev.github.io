@@ -197,7 +197,6 @@ img {
 
 #header-main #navbar {
     display: flex;
-    position:fixed;
     justify-content: space-between;
     align-items: center;
 }
@@ -210,7 +209,6 @@ img {
 
 #header-main #navbar #main-nav ul {
     display: flex;
-    float:right;
     font-size: 1.5rem;
     list-style: none;
 }
