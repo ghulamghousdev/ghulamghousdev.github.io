@@ -410,6 +410,16 @@ img {
     padding: 1rem;
 }
 
+.tyepwriting-text{
+    display: block;
+    height:150px;
+}
+.computer-science p{
+    font-size: 50px !important;
+}
+
+
+
 #main-footer p {
     margin: auto;
     text-align: center;
