@@ -153,15 +153,18 @@ table {
 }
 
 .section-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #FFB703;
 }
 
 .title-line {
     height: 2px;
     width: 3rem;
-    background: #ffee00;
+    background: #FFB703;
     margin: 0 auto;
 }
 
@@ -191,7 +194,7 @@ img {
 
 #header-main {
     position: relative;
-    background: rgba(131, 131, 131, 0.548);
+    background: rgba(142, 202, 230, 0.7);
     height: 100vh;
 }
 
@@ -199,6 +202,12 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+#navbar a {
+  color: #023047;
 }
 
 #header-main #navbar .logo {
@@ -219,7 +228,7 @@ img {
 }
 
 #header-main #navbar #main-nav ul li a:hover {
-    border-bottom: 3px #ffee00 solid;
+    border-bottom: 3px #FFB703 solid;
     padding-bottom: 0.5rem;
 }
 
@@ -248,6 +257,8 @@ img {
 
 #header-content .welcome {
     font-size: 3.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
 }
 
 #header-content .welcome p {
@@ -277,13 +288,15 @@ img {
 }
 
 #about .about-content .paragraph {
-    background: #e2dfdf;
+    background: #8ECAE6;
     font-size: 1.1rem;
-    border-left: 3px solid #ffee00;
+    border-left: 3px solid #219EBC;
     line-height: 1.7;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #023047;
+    font-weight: 600;
 }
 
 #blog .blog-content {
@@ -298,31 +311,34 @@ img {
 }
 
 #blog .blog-content .paragraph {
-    background: #e2dfdf;
+    background: #8ECAE6;
     font-size: 1.1rem;
-    border-left: 3px solid #ffee00;
+    border-left: 3px solid #219EBC;
     line-height: 1.7;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #023047;
+    font-weight: 600;
 }
 
 #blog .blog-content .paragraph p a {
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: bold;
-    color: black;
-    text-align: left;
-    margin-bottom: 1rem;
+    font-size: 1em;
+    color: #023047;
+    font-family: 'Inter', sans-serif;
+}
+
+#blog .blog-content .paragraph span {
+    font-size: 1.5em;
+    font-family: 'Inter', sans-serif;
 }
 
 #hobbie {
-    background: #e2dfdf;
-    color: #333;
+    background: #023047;
+    color: #D6F2FF;
 }
 
 #hobbie .paragraph {
-    border-left: 3px solid #ffee00;
     font-size: 1.3rem;
     line-height: 1.7;
 }
@@ -410,10 +426,12 @@ img {
     padding: 1rem;
 }
 
-.tyepwriting-text{
+.typewriting-text{
     display: block;
     height:150px;
+    color: #023047;
 }
+
 .computer-science p{
     font-size: 50px !important;
 }
